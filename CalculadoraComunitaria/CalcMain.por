@@ -65,7 +65,11 @@ programa
 		escreva(resultadoQuad)
 	}
 	//funcao IMC JOAO
+	funcao real calcularIMC(real peso, real altura){
 
+		real imc = peso/(altura*altura)
+		retorne mt.arredondar(imc, 2)
+	}
 	//funcao YAGO VELOCIDADE MEDIA 
 
 	// SE FALTAR ALGUEM AVISA ! 
@@ -76,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1881; 
+ * @POSICAO-CURSOR = 2020; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
