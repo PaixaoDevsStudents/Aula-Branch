@@ -90,7 +90,20 @@ programa
 		retorne mt.arredondar(imc, 2)
 	}
 	//funcao YAGO VELOCIDADE MEDIA 
+        funcao vazio velocidadeMedia()
+	{
+		real varEspaco, varTempo
+		inteiro resultadoVm
+		
+		escreva("Digite a distância total percorrida (em metros): ")
+		leia(varEspaco)
+		escreva("Digite o tempo total (em segundos): ")	
+		leia(varTempo)
 
+		 resultadoVm = varEspaco / varTempo
+
+		escreva("A velocidade média é :", resultadoVm, "m/s")
+	}
 	// SE FALTAR ALGUEM AVISA ! 
 	
 }
