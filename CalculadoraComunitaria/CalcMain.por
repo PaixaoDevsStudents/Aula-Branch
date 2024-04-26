@@ -21,6 +21,11 @@ programa
 	//funcao soma Bruno
 
 	//funcao subtrair Larisse
+	funcao subtrair(inteiro n1, inteiro n2){
+		retorne n1-n2
+		
+	} 
+	
 
 	//funcao  Dividir Igor
 
@@ -99,15 +104,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
-<<<<<<< HEAD
- * @POSICAO-CURSOR = 110; 
-=======
-<<<<<<< HEAD
- * @POSICAO-CURSOR = 1226; 
-=======
- * @POSICAO-CURSOR = 697; 
->>>>>>> cc0d775fe6cbd94641a16c6188d50099105a5f7f
->>>>>>> 8ab63b9a5bebd0984dafcbefa50a136d95db51f5
+ * @POSICAO-CURSOR = 602; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
