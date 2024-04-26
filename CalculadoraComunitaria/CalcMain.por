@@ -25,7 +25,34 @@ programa
 	//funcao  Dividir Igor
 
 	//funcao ao quadrado Danilo
+<<<<<<< HEAD
+     funcao vazio quadrado2 (){
+     		
+		real base,base2, quadrado, quadrado2 //,cubo
+		real resultado [2]
 
+		escreva("Informe um número para calcular o quadrado: ")
+		leia(base)
+		escreva("Informe o segundo número para calcular o quadrado: ")
+		leia(base2)
+		// Eleva o número informado ao quadrado
+		quadrado = mat.potencia(base, 2.0)
+		quadrado2 = mat.potencia(base2, 2.0)
+		resultado [0] = quadrado 
+		resultado [1] = quadrado2
+		escreva("\n", base, " ao quadrado é igual a: ", quadrado)
+		escreva("\n", base2, " ao quadrado é igual a: ", quadrado2)
+		escreva (resultado[0],resultado [1])
+		
+		// formula para calcular o cubo de um numero 
+		// Eleva o número informado ao cubo
+		//cubo = mat.potencia(base, 3.0)
+		//escreva("\n", base, " ao cubo é igual a: ", cubo, "\n")
+	}
+     }
+=======
+
+>>>>>>> cc0d775fe6cbd94641a16c6188d50099105a5f7f
 	//funcao ao cubo Samuel
 
 	//funcao multiplicação Welson
@@ -72,9 +99,17 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
+<<<<<<< HEAD
  * @POSICAO-CURSOR = 110; 
+=======
+<<<<<<< HEAD
+ * @POSICAO-CURSOR = 1226; 
+=======
+ * @POSICAO-CURSOR = 697; 
+>>>>>>> cc0d775fe6cbd94641a16c6188d50099105a5f7f
+>>>>>>> 8ab63b9a5bebd0984dafcbefa50a136d95db51f5
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = vetor, matriz, funcao;
  */
