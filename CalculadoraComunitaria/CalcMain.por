@@ -1,19 +1,25 @@
 programa
 {
+
 	inclua biblioteca Matematica --> mat
 	
+
 	//tabuada Lucas
 	funcao inicio()
 	{
-	 inteiro contador1=1, contador2=1
-	 enquanto(contador2<=10){
-	 	     escreva("\n",contador1," X ", contador2," =",(contador1*contador2))
-	 	     contador2++
-	 	     }
-	 	     escreva("\n")
-	 	     contador2=1
-	 	     contador1++
+	 inteiro num1, num2, resultadoSoma,resultadoSub,resultadoDiv,resultadoQuad,resultadoCubo,resultadoMult,resultadoImc,resultadoVm
+	 real peso, altura, varEspaco, varTempo
+	 real base, quadrado, resultado //variaves da funcao quadrado 
 	}
+	/*resultadoSoma->Bruno
+	 * resultadoSub->Larisse
+	 * resultadoDiv->Igor
+	 * resultadoQuad->Danilo
+	 * resultadoCubo->Samuel
+	 * resultadoMult->Welson
+	 * resultadoImc->Joao
+	 * resultadoVm->Yago
+	 */
 
 	//funcao soma Bruno
 
@@ -47,8 +53,13 @@ programa
 	//funcao menu Danny
 
 	//funcao  mostrar resultados todos juntos Davi 
-	
+
 	//funcao IMC JOAO
+	funcao real calcularIMC(real peso, real altura){
+		
+		real imc = peso/(altura*altura)
+		retorne mt.arredondar(imc, 2)
+	}
 
 	//funcao YAGO VELOCIDADE MEDIA 
 
@@ -60,7 +71,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 561; 
+ * @POSICAO-CURSOR = 11; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
