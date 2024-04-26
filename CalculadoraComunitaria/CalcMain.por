@@ -21,16 +21,12 @@ programa
 	//funcao soma Bruno
 
 	//funcao subtrair Larisse
-	funcao subtrair(inteiro n1, inteiro n2){
+	funcao inteiro subtrair(inteiro n1, inteiro n2){
 		retorne n1-n2
-		
 	} 
-	
-
 	//funcao  Dividir Igor
 
 	//funcao ao quadrado Danilo
-<<<<<<< HEAD
      funcao vazio quadrado2 (){
      		
 		real base,base2, quadrado, quadrado2 //,cubo
@@ -54,10 +50,6 @@ programa
 		//cubo = mat.potencia(base, 3.0)
 		//escreva("\n", base, " ao cubo é igual a: ", cubo, "\n")
 	}
-     }
-=======
-
->>>>>>> cc0d775fe6cbd94641a16c6188d50099105a5f7f
 	//funcao ao cubo Samuel
 
 	//funcao multiplicação Welson
@@ -104,7 +96,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 602; 
+ * @POSICAO-CURSOR = 607; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
