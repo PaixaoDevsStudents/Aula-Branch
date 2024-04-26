@@ -1,15 +1,11 @@
 programa
 {
-
-	inclua biblioteca Matematica --> mat
-	
-
+	inclua biblioteca Matematica --> mt 
 	//tabuada Lucas
 	funcao inicio()
 	{
-	 inteiro num1, num2, resultadoSoma,resultadoSub,resultadoDiv,resultadoQuad,resultadoCubo,resultadoMult,resultadoImc,resultadoVm
+	 inteiro num1, num2, resultadoSoma,resultadoSub,resultadoDiv,resultadoQuad,resultadoCubo[2],resultadoMult,resultadoImc,resultadoVm
 	 real peso, altura, varEspaco, varTempo
-	 real base, quadrado, resultado //variaves da funcao quadrado 
 	}
 	/*resultadoSoma->Bruno
 	 * resultadoSub->Larisse
@@ -28,6 +24,7 @@ programa
 	//funcao  Dividir Igor
 
 	//funcao ao quadrado Danilo
+<<<<<<< HEAD
      funcao vazio quadrado2 (){
      		
 		real base,base2, quadrado, quadrado2 //,cubo
@@ -52,7 +49,14 @@ programa
 		//escreva("\n", base, " ao cubo é igual a: ", cubo, "\n")
 	}
      }
+=======
+
+>>>>>>> cc0d775fe6cbd94641a16c6188d50099105a5f7f
 	//funcao ao cubo Samuel
+	funcao inteirocubo(inteiro n1, inteiro n2, inteiro vetor[]){
+		vetor[0]= n1*n1*n1
+		vetor[1]= n2*n2*n2
+	}
 
 	//funcao multiplicação Welson
 
@@ -79,7 +83,11 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
+<<<<<<< HEAD
  * @POSICAO-CURSOR = 1226; 
+=======
+ * @POSICAO-CURSOR = 697; 
+>>>>>>> cc0d775fe6cbd94641a16c6188d50099105a5f7f
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
