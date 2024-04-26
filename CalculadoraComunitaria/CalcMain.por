@@ -1,9 +1,11 @@
 programa
 {
-	inclua biblioteca Matematica --> mt 
 	//tabuada Lucas
+
+	
 	funcao inicio()
 	{
+<<<<<<< HEAD
 	 inteiro num1=0, num2=0, resultadoSoma,resultadoSub,resultadoDiv,resultadoQuad,resultadoCubo,resultadoMult
 	 real peso, altura, varEspaco, varTempo, resultadoImc, resultadoVm
 	 inserirValores(num1,num2)
@@ -17,7 +19,19 @@ programa
 	 * resultadoImc->Joao
 	 * resultadoVm->Yago
 	 */
+=======
+>>>>>>> 66444519efcb084dd8989462dfb74c269411368a
 
+	 inteiro contador1=1, contador2=1
+	 enquanto(contador2<=10){
+	 	     escreva("\n",contador1," X ", contador2," =",(contador1*contador2))
+	 	     contador2++
+	 	     }
+	 	     escreva("\n")
+	 	     contador2=1
+	 	     contador1++
+	}
+    
 	//funcao soma Bruno
 
 	//funcao subtrair Larisse
@@ -25,29 +39,7 @@ programa
 	//funcao  Dividir Igor
 
 	//funcao ao quadrado Danilo
-     funcao vazio quadrado2 (){
-     		
-		real base,base2, quadrado, quadrado2 //,cubo
-		real resultado [2]
 
-		escreva("Informe um número para calcular o quadrado: ")
-		leia(base)
-		escreva("Informe o segundo número para calcular o quadrado: ")
-		leia(base2)
-		// Eleva o número informado ao quadrado
-		quadrado = mat.potencia(base, 2.0)
-		quadrado2 = mat.potencia(base2, 2.0)
-		resultado [0] = quadrado 
-		resultado [1] = quadrado2
-		escreva("\n", base, " ao quadrado é igual a: ", quadrado)
-		escreva("\n", base2, " ao quadrado é igual a: ", quadrado2)
-		escreva (resultado[0],resultado [1])
-		
-		// formula para calcular o cubo de um numero 
-		// Eleva o número informado ao cubo
-		//cubo = mat.potencia(base, 3.0)
-		//escreva("\n", base, " ao cubo é igual a: ", cubo, "\n")
-	}
 	//funcao ao cubo Samuel
 
 	//funcao multiplicação Welson
@@ -55,8 +47,15 @@ programa
 	//funcao Titulo Talison
 
 	//funcao menu Danny
+	funcao vazio escolhaMenu(){
+		escreva("***** MENU ****\n\n")
+		escreva("Digite:\n 1 - para somar\n 2 - Para subtrair\n 3-Para Multiplicar \n 4 - Para dividir\n 5 - Para elevar ao cubo\n 6 - Para elevar ao quadrado \n",
+		"7 - Para calcular imc\n 8 - para calcular a velociadade media\n\n")
+		
+		}
 
 	//funcao  mostrar resultados todos juntos Davi 
+<<<<<<< HEAD
 	funcao vazio resultados(inteiro num1,inteiro num2,real peso,real altura,real varEspaco,real varTempo,inteiro resultadoSoma,inteiro resultadoSub,inteiro resultadoDiv,inteiro resultadoQuad,inteiro resultadoCubo,inteiro resultadoMult,real resultadoImc,real resultadoVm){
 		escreva("Os resultados são:")
 		escreva(num1,"+",num2,"=",resultadoSoma,"\n")
@@ -68,24 +67,14 @@ programa
 		escreva(resultadoCubo)
 		escreva(resultadoQuad)
 	}
+=======
+	
+>>>>>>> 66444519efcb084dd8989462dfb74c269411368a
 	//funcao IMC JOAO
-	funcao real calcularIMC(real peso, real altura){
-		
-		real imc = peso/(altura*altura)
-		retorne mt.arredondar(imc, 2)
-	}
 
 	//funcao YAGO VELOCIDADE MEDIA 
 
-	//funcao inserir num1,num2
-	funcao vazio inserirValores(inteiro &num1,inteiro &num2){
-		 escreva("Informe o 1° número:\n->")
-		 leia(num1)
-		 limpa()
-		 escreva("Informe o 2° número:\n->")
-		 leia(num1)
-		 limpa()
-	}
+	// SE FALTAR ALGUEM AVISA ! 
 	
 }
 /* $$$ Portugol Studio $$$ 
@@ -93,9 +82,13 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
+<<<<<<< HEAD
  * @POSICAO-CURSOR = 2001; 
+=======
+ * @POSICAO-CURSOR = 797; 
+>>>>>>> 66444519efcb084dd8989462dfb74c269411368a
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = vetor, matriz, funcao;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
