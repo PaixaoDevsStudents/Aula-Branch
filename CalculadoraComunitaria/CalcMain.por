@@ -5,7 +5,6 @@ programa
 	
 	funcao inicio()
 	{
-<<<<<<< HEAD
 	 inteiro num1=0, num2=0, resultadoSoma,resultadoSub,resultadoDiv,resultadoQuad,resultadoCubo,resultadoMult
 	 real peso, altura, varEspaco, varTempo, resultadoImc, resultadoVm
 	 inserirValores(num1,num2)
@@ -19,8 +18,7 @@ programa
 	 * resultadoImc->Joao
 	 * resultadoVm->Yago
 	 */
-=======
->>>>>>> 66444519efcb084dd8989462dfb74c269411368a
+
 
 	 inteiro contador1=1, contador2=1
 	 enquanto(contador2<=10){
@@ -55,7 +53,6 @@ programa
 		}
 
 	//funcao  mostrar resultados todos juntos Davi 
-<<<<<<< HEAD
 	funcao vazio resultados(inteiro num1,inteiro num2,real peso,real altura,real varEspaco,real varTempo,inteiro resultadoSoma,inteiro resultadoSub,inteiro resultadoDiv,inteiro resultadoQuad,inteiro resultadoCubo,inteiro resultadoMult,real resultadoImc,real resultadoVm){
 		escreva("Os resultados são:")
 		escreva(num1,"+",num2,"=",resultadoSoma,"\n")
@@ -67,9 +64,6 @@ programa
 		escreva(resultadoCubo)
 		escreva(resultadoQuad)
 	}
-=======
-	
->>>>>>> 66444519efcb084dd8989462dfb74c269411368a
 	//funcao IMC JOAO
 
 	//funcao YAGO VELOCIDADE MEDIA 
@@ -82,11 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
-<<<<<<< HEAD
- * @POSICAO-CURSOR = 2001; 
-=======
- * @POSICAO-CURSOR = 797; 
->>>>>>> 66444519efcb084dd8989462dfb74c269411368a
+ * @POSICAO-CURSOR = 1881; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
