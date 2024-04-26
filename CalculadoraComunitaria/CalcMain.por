@@ -19,6 +19,7 @@ programa
 	 * resultadoVm->Yago
 	 */
 
+ 
 
 	 inteiro contador1=1, contador2=1
 	 enquanto(contador2<=10){
@@ -39,7 +40,13 @@ programa
 	//funcao ao quadrado Danilo
 
 	//funcao ao cubo Samuel
-
+	funcao cubo(inteiro n1, inteiro n2, vetor[2]){
+	 vetor[0] = n1*n2*n2
+	 vetor[1] = n2*n2*n2
+	     
+	}
+	
+	
 	//funcao multiplicação Welson
 
 	//funcao Titulo Talison
@@ -80,7 +87,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2020; 
+ * @POSICAO-CURSOR = 922; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
