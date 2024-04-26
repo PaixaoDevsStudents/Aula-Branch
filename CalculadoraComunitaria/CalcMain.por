@@ -4,8 +4,8 @@ programa
 	//tabuada Lucas
 	funcao inicio()
 	{
-	 inteiro num1=0, num2=0, resultadoSoma,resultadoSub,resultadoDiv,resultadoQuad,resultadoCubo,resultadoMult,resultadoImc,resultadoVm
-	 real peso, altura, varEspaco, varTempo
+	 inteiro num1=0, num2=0, resultadoSoma,resultadoSub,resultadoDiv,resultadoQuad,resultadoCubo,resultadoMult
+	 real peso, altura, varEspaco, varTempo, resultadoImc, resultadoVm
 	 inserirValores(num1,num2)
 	}
 	/*resultadoSoma->Bruno
@@ -57,15 +57,14 @@ programa
 	//funcao menu Danny
 
 	//funcao  mostrar resultados todos juntos Davi 
-	funcao vazio resultados(inteiro num1,inteiro num2,real peso,real altura,real varEspaco,real varTempo,inteiro resultadoSoma,inteiro resultadoSub,inteiro resultadoDiv,inteiro resultadoQuad,inteiro resultadoCubo,inteiro resultadoMult,inteiro resultadoImc,inteiro resultadoVm){
+	funcao vazio resultados(inteiro num1,inteiro num2,real peso,real altura,real varEspaco,real varTempo,inteiro resultadoSoma,inteiro resultadoSub,inteiro resultadoDiv,inteiro resultadoQuad,inteiro resultadoCubo,inteiro resultadoMult,real resultadoImc,real resultadoVm){
 		escreva("Os resultados são:")
 		escreva(num1,"+",num2,"=",resultadoSoma,"\n")
 		escreva(num1,"-",num2,"=",resultadoSub,"\n")
 		escreva(num1,"÷",num2,"=",resultadoDiv,"\n")
 		escreva(num1,"x",num2,"=",resultadoMult,"\n")
-		escreva(num1,"x",num2,"=",resultadoMult,"\n")
-		escreva(resultadoImc)
-		escreva(resultadoVm)
+		escreva(mt.arredondar(resultadoImc,2))
+		escreva(mt.arredondar(resultadoVm,2))
 		escreva(resultadoCubo)
 		escreva(resultadoQuad)
 	}
@@ -94,7 +93,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1377; 
+ * @POSICAO-CURSOR = 2001; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
