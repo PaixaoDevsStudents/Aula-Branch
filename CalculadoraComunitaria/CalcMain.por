@@ -25,7 +25,6 @@ programa
 	//funcao  Dividir Igor
 
 	//funcao ao quadrado Danilo
-<<<<<<< HEAD
      funcao vazio quadrado2 (){
      		
 		real base,base2, quadrado, quadrado2 //,cubo
@@ -49,10 +48,6 @@ programa
 		//cubo = mat.potencia(base, 3.0)
 		//escreva("\n", base, " ao cubo é igual a: ", cubo, "\n")
 	}
-     }
-=======
-
->>>>>>> cc0d775fe6cbd94641a16c6188d50099105a5f7f
 	//funcao ao cubo Samuel
 
 	//funcao multiplicação Welson
@@ -99,15 +94,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
-<<<<<<< HEAD
- * @POSICAO-CURSOR = 110; 
-=======
-<<<<<<< HEAD
- * @POSICAO-CURSOR = 1226; 
-=======
- * @POSICAO-CURSOR = 697; 
->>>>>>> cc0d775fe6cbd94641a16c6188d50099105a5f7f
->>>>>>> 8ab63b9a5bebd0984dafcbefa50a136d95db51f5
+ * @POSICAO-CURSOR = 1377; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
