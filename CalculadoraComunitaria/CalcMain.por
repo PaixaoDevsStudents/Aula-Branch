@@ -1,5 +1,6 @@
 programa
 {
+	inclua biblioteca Matematica --> mt 
 	//tabuada Lucas
 	funcao inicio()
 	{
@@ -35,6 +36,11 @@ programa
 	//funcao  mostrar resultados todos juntos Davi 
 
 	//funcao IMC JOAO
+	funcao real calcularIMC(real peso, real altura){
+		
+		real imc = peso/(altura*altura)
+		retorne mt.arredondar(imc, 2)
+	}
 
 	//funcao YAGO VELOCIDADE MEDIA 
 
@@ -46,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 416; 
+ * @POSICAO-CURSOR = 48; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
