@@ -3,14 +3,8 @@ programa
 	//tabuada Lucas
 	funcao inicio()
 	{
-	 inteiro contador1=1, contador2=1
-	 enquanto(contador2<=10){
-	 	     escreva("\n",contador1," X ", contador2," =",(contador1*contador2))
-	 	     contador2++
-	 	     }
-	 	     escreva("\n")
-	 	     contador2=1
-	 	     contador1++
+	 inteiro num1, num2, resultado
+	 real peso, altura, varEspaco, varTempo
 	}
 
 	//funcao soma Bruno
@@ -43,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 620; 
+ * @POSICAO-CURSOR = 120; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
