@@ -1,8 +1,11 @@
 programa
 {
 	//tabuada Lucas
+
+	
 	funcao inicio()
 	{
+
 	 inteiro contador1=1, contador2=1
 	 enquanto(contador2<=10){
 	 	     escreva("\n",contador1," X ", contador2," =",(contador1*contador2))
@@ -12,7 +15,7 @@ programa
 	 	     contador2=1
 	 	     contador1++
 	}
-
+    
 	//funcao soma Bruno
 
 	//funcao subtrair Larisse
@@ -28,6 +31,12 @@ programa
 	//funcao Titulo Talison
 
 	//funcao menu Danny
+	funcao vazio escolhaMenu(){
+		escreva("***** MENU ****\n\n")
+		escreva("Digite:\n 1 - para somar\n 2 - Para subtrair\n 3-Para Multiplicar \n 4 - Para dividir\n 5 - Para elevar ao cubo\n 6 - Para elevar ao quadrado \n",
+		"7 - Para calcular imc\n 8 - para calcular a velociadade media\n\n")
+		
+		}
 
 	//funcao  mostrar resultados todos juntos Davi 
 	
@@ -43,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 620; 
+ * @POSICAO-CURSOR = 725; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
