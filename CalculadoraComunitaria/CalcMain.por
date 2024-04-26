@@ -4,8 +4,9 @@ programa
 	//tabuada Lucas
 	funcao inicio()
 	{
-	 inteiro num1, num2, resultadoSoma,resultadoSub,resultadoDiv,resultadoQuad,resultadoCubo,resultadoMult,resultadoImc,resultadoVm
+	 inteiro num1=0, num2=0, resultadoSoma,resultadoSub,resultadoDiv,resultadoQuad,resultadoCubo,resultadoMult,resultadoImc,resultadoVm
 	 real peso, altura, varEspaco, varTempo
+	 inserirValores(num1,num2)
 	}
 	/*resultadoSoma->Bruno
 	 * resultadoSub->Larisse
@@ -34,7 +35,18 @@ programa
 	//funcao menu Danny
 
 	//funcao  mostrar resultados todos juntos Davi 
-
+	funcao vazio resultados(inteiro num1,inteiro num2,real peso,real altura,real varEspaco,real varTempo,inteiro resultadoSoma,inteiro resultadoSub,inteiro resultadoDiv,inteiro resultadoQuad,inteiro resultadoCubo,inteiro resultadoMult,inteiro resultadoImc,inteiro resultadoVm){
+		escreva("Os resultados são:")
+		escreva(num1,"+",num2,"=",resultadoSoma,"\n")
+		escreva(num1,"-",num2,"=",resultadoSub,"\n")
+		escreva(num1,"÷",num2,"=",resultadoDiv,"\n")
+		escreva(num1,"x",num2,"=",resultadoMult,"\n")
+		escreva(num1,"x",num2,"=",resultadoMult,"\n")
+		escreva(resultadoImc)
+		escreva(resultadoVm)
+		escreva(resultadoCubo)
+		escreva(resultadoQuad)
+	}
 	//funcao IMC JOAO
 	funcao real calcularIMC(real peso, real altura){
 		
@@ -44,7 +56,15 @@ programa
 
 	//funcao YAGO VELOCIDADE MEDIA 
 
-	// SE FALTAR ALGUEM AVISA ! 
+	//funcao inserir num1,num2
+	funcao vazio inserirValores(inteiro &num1,inteiro &num2){
+		 escreva("Informe o 1° número:\n->")
+		 leia(num1)
+		 limpa()
+		 escreva("Informe o 2° número:\n->")
+		 leia(num1)
+		 limpa()
+	}
 	
 }
 /* $$$ Portugol Studio $$$ 
@@ -52,7 +72,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 48; 
+ * @POSICAO-CURSOR = 1791; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
