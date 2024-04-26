@@ -3,28 +3,12 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro opcao
-		menu()
-		leia(opcao)
-		escolha(opcao){
-			caso 1://		adicao
-			
-			pare
-			caso 2://		subtracao
-			
-			pare
-			caso 3://		multiplicacao
-			
-			pare
-			caso 4://		divisao
-			
-			pare
-			caso contrario://		tratamento de erro
-			
-		}
-	}
-	funcao vazio menu(){
-		escreva("(1)Adição\n(2)Subtração\n(3)Multiplicação\n(4)Divisão\n->")
+       inteiro n1, n2
+       escreva("Soma de produtos:\n")
+       escreva("Digite um numero ")
+       leia(n1)
+       leia(n2)
+       escreva("A soma é :", n1+n2)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -32,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 19; 
+ * @POSICAO-CURSOR = 200; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
