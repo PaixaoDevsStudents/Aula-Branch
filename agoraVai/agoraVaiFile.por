@@ -2,24 +2,12 @@ programa
 {
 	
 	inclua biblioteca Matematica --> mat
-
-	funcao inicio()
-	{
+	
 		inteiro num1=0, num2=0, resultadoSoma=0,resultadoSub=0,resultadoMult=0,resultadoQuad[2]={0,0},resultadoCubo[2]={0,0}
 		real peso=0.0, altura=0.0, varEspaco=0.0, varTempo=0.0, resultadoDiv=0.0,resultadoVm=0.0,resultadoImc=0.0,metroConcreto=0.0
-		inteiro num1, num2, resultadoSoma,resultadoSub,resultadoQuad[2],resultadoCubo[2],resultadoMult,resultadoImc,resultadoVm
-		real peso, altura, varEspaco, varTempo, resultadoDiv
-
-		/*resultadoSoma->Bruno
-	 	* resultadoSub->Larisse
-	 	* resultadoDiv->Igor
-	 	* resultadoQuad->Danilo
-	 	* resultadoCubo->Samuel
-	 	* resultadoMult->Welson
-	 	* resultadoImc->Joao
-	 	* resultadoVm->Yago
-	 	*/
-
+	
+	funcao inicio()
+	{
 		faca{
 			escreva ("Digite um número: ")
 			leia(num1)
@@ -29,10 +17,10 @@ programa
 				escreva ("O número deve ser positivo\nDigite um numero positivo\n")
 			}
 		}enquanto(num1 < 0 ou num2 < 0)
-	 	//-----
-	 	//isso aqui e por ultimo, repito ULTIMO, nao coloque NADA acima disso, obrigao :)	
+		
+		subtrair(num1,num2,resultadoSub)
+		cubo(num1,num2,resultadoCubo)
 	 	mostrarResults(num1,num2,resultadoSoma,resultadoSub,resultadoMult,resultadoQuad,resultadoCubo,peso,altura,varEspaco,varTempo,resultadoDiv,resultadoVm,resultadoImc,metroConcreto)
-	 	//-----
 	}
 	//adição
 
@@ -48,13 +36,9 @@ programa
 	//velocidade média
 
 	//cubo
-	funcao resultadoCubo(inteiro num1, inteiro num2 ){
-		   vetor[0] = num1*num1*num1
-		   vetor[1] = num2*num2*num2
-		   se(num1>num2){
-		   escreva(num1," Esse número é maior")}
-		   senao(num2 > num1)
-		   escreva(num2," Esse número é maior")
+	funcao cubo(inteiro num1, inteiro num2 , inteiro resultadoCubo[]){
+		   resultadoCubo[0] = num1*num1*num1
+		   resultadoCubo[1] = num2*num2*num2
 	}
 
 	//quadrado
@@ -83,7 +67,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1689; 
+ * @POSICAO-CURSOR = 2217; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
