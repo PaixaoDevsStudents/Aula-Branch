@@ -37,8 +37,8 @@
 
 **Missão:** *Calcular a soma  de 2 números; 
 
- - [ ] Verificar qual dos dois tem o maior resultado e printar  qual é o maior;
- - [ ] Em seguida  realizar a divisão desse resultado pelo o retorno do Danilo;
+ - [x] Verificar qual dos dois tem o maior resultado e printar  qual é o maior;
+ - [x] Em seguida  realizar a divisão desse resultado pelo o retorno do Danilo;
 --------------------------------------------------------------------------------------------
 **Responsável:** *Samuel*
 
