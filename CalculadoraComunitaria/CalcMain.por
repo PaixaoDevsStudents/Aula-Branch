@@ -20,6 +20,7 @@ programa
 	 * resultadoVm->Yago
 	 */
 
+ 
 
 	 inteiro contador1=1, contador2=1
 	 enquanto(contador2<=10){
@@ -58,7 +59,13 @@ programa
 
      
 	//funcao ao cubo Samuel
-
+	funcao cubo(inteiro n1, inteiro n2, vetor[2]){
+	 vetor[0] = n1*n2*n2
+	 vetor[1] = n2*n2*n2
+	     
+	}
+	
+	
 	//funcao multiplicação Welson
 
 	//funcao Titulo Talison
@@ -108,32 +115,3 @@ programa
 	
 }
 /* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
-<<<<<<< HEAD
- * @POSICAO-CURSOR = 607; 
-=======
-<<<<<<< HEAD
- * @POSICAO-CURSOR = 951; 
-=======
- * @POSICAO-CURSOR = 2020; 
->>>>>>> e7c5193bbd746c7d9f0f2af7c4046f3e6dde9eb5
->>>>>>> f43a109dff09dfb151b882ea7873af0bd83052d9
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1054; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
