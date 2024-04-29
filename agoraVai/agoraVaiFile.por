@@ -35,6 +35,9 @@ programa
 	//adição
 
 	//subtração
+	funcao vazio subtrair(inteiro num1, inteiro num2, inteiro &resultadoSub){
+     	resultadoSub= num1-num2
+	}
 
 	//divisão
 
@@ -73,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 534; 
+ * @POSICAO-CURSOR = 1205; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
