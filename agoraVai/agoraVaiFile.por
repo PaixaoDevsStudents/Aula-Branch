@@ -58,6 +58,7 @@ programa
 		escreva("O cubo do ",num2," = ",resultadoCubo[1],"\n")
 		escreva("O quadrado do ",num1," = ",resultadoQuad[0],"\n")
 		escreva("O quadrado do ",num2," = ",resultadoQuad[1],"\n")
+		escreva("O metro do concreto é: "/*resultado do concreto*/)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -65,7 +66,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1600; 
+ * @POSICAO-CURSOR = 1966; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
