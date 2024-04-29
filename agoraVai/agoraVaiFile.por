@@ -22,31 +22,44 @@ programa
 		cubo(num1,num2,resultadoCubo)
 	 	mostrarResults(num1,num2,resultadoSoma,resultadoSub,resultadoMult,resultadoQuad,resultadoCubo,peso,altura,varEspaco,varTempo,resultadoDiv,resultadoVm,resultadoImc,metroConcreto)
 	}
-	//adição
+	//adição - BRUNO PAJEU
 
-	//subtração
+	//subtração - LARISSE
 	funcao vazio subtrair(inteiro num1, inteiro num2, inteiro &resultadoSub){
      	resultadoSub= num1-num2
 	}
 
-	//divisão
+	//divisão - IGOR
 
-	//multiplicação
-	//IMC
-	//velocidade média
+	//multiplicação - WELSON
+	
+	//IMC - JOÃO VITOR
+	
+	//velocidade média - YAGO
 
-	//cubo
+	//cubo - SAMUEL
 	funcao cubo(inteiro num1, inteiro num2 , inteiro resultadoCubo[]){
 		   resultadoCubo[0] = num1*num1*num1
 		   resultadoCubo[1] = num2*num2*num2
 	}
 
-	//quadrado
+	//quadrado - DANILO
 
-	//titulo
-	//menu opções
+	//calcularConcretoLaje - KAIO
 
-	//mostrar resultados
+	//calcular soma resultados (IGOR + SAMUEL + WILL DIAS) - XERENTE
+
+	//calcular DescontoDoCustoDeConcreto / YAGO
+
+	//CustoConcreto - LUIS GUILHERME
+
+	//DescontoDoCustoDeConcreto - WILL DIAS
+
+	//titulo - THALISON
+	
+	//menu opções - DANNY
+
+	//mostrar resultados - DAVI
 	funcao vazio mostrarResults(inteiro num1, inteiro num2, inteiro resultadoSoma, inteiro resultadoSub, inteiro resultadoMult, inteiro resultadoQuad[], inteiro resultadoCubo[], real peso, real altura, real varEspaco, real varTempo, real resultadoDiv, real resultadoVm, real resultadoImc, real metroConcreto){
 		escreva("Os resultados são:\n\n")
 		escreva("Soma: ",num1," + ",num2," = ",resultadoSoma,"\n")
@@ -67,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2217; 
+ * @POSICAO-CURSOR = 892; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
