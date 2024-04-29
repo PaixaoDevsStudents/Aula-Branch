@@ -3,46 +3,49 @@ programa
 	
 	inclua biblioteca Matematica --> mat
 	
-	funcao inicio()
-	{
 		inteiro num1=0, num2=0, resultadoSoma=0,resultadoSub=0,resultadoMult=0,resultadoQuad[2]={0,0},resultadoCubo[2]={0,0}
 		real peso=0.0, altura=0.0, varEspaco=0.0, varTempo=0.0, resultadoDiv=0.0,resultadoVm=0.0,resultadoImc=0.0,metroConcreto=0.0
+	
+	funcao inicio()
+	{
+		faca{
+			escreva ("Digite um número: ")
+			leia(num1)
+			escreva ("Digite um número: ")
+			leia(num2)
+   			se (num1 < 0 ou num2 < 0){
+				escreva ("O número deve ser positivo\nDigite um numero positivo\n")
+			}
+		}enquanto(num1 < 0 ou num2 < 0)
 		
-		/*resultadoSoma->Bruno
-	 	* resultadoSub->Larisse
-	 	* resultadoDiv->Igor
-	 	* resultadoQuad->Danilo
-	 	* resultadoCubo->Samuel
-	 	* resultadoMult->Welson
-	 	* resultadoImc->Joao
-	 	* resultadoVm->Yago
-	 	*/
-
-
-		
-	 	//-----
-	 	//isso aqui e por ultimo, repito ULTIMO, nao coloque NADA acima disso, obrigao :)	
+		subtrair(num1,num2,resultadoSub)
+		cubo(num1,num2,resultadoCubo)
 	 	mostrarResults(num1,num2,resultadoSoma,resultadoSub,resultadoMult,resultadoQuad,resultadoCubo,peso,altura,varEspaco,varTempo,resultadoDiv,resultadoVm,resultadoImc,metroConcreto)
-	 	//-----
 	}
 	//adição
 
 	//subtração
+	funcao vazio subtrair(inteiro num1, inteiro num2, inteiro &resultadoSub){
+     	resultadoSub= num1-num2
+	}
 
 	//divisão
 
 	//multiplicação
-
+	
 	//IMC
-
+	
 	//velocidade média
 
 	//cubo
+	funcao cubo(inteiro num1, inteiro num2 , inteiro resultadoCubo[]){
+		   resultadoCubo[0] = num1*num1*num1
+		   resultadoCubo[1] = num2*num2*num2
+	}
 
 	//quadrado
 
 	//titulo
-
 	//menu opções
 
 	//mostrar resultados
@@ -66,7 +69,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1966; 
+ * @POSICAO-CURSOR = 994; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
