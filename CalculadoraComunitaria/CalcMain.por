@@ -31,7 +31,7 @@ programa
 	 	     contador1++
 	}
     
-	//funcao soma Bruno
+	//funcao soma Brun
 
 	//funcao subtrair Larisse
 	funcao inteiro subtrair(inteiro n1, inteiro n2){
@@ -131,7 +131,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1054; 
+ * @POSICAO-CURSOR = 694; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
