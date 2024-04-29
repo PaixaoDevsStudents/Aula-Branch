@@ -17,7 +17,7 @@
 
 **Missão:** *Calcular o quadrado de 2 números; 
 
- - [ ] Verificar qual dos dois tem o maior resultado;
+ - [x] Verificar qual dos dois tem o maior resultado;
  - [ ] Em seguida  realizar a divisão desse resultado pelo o retorno do Igor;
  - [ ] Com esse resultado obtido some com o resultado da Larisse;
 --------------------------------------------------------------------------------------------
