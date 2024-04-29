@@ -24,7 +24,7 @@ programa
 			escreva ("Digite um número: ")
 			leia(num2)
    			se (num1 < 0 ou num2 < 0){
-				escreva ("O número deve ser positivo\nDigite um numero positivo: \n")
+				escreva ("O número deve ser positivo\nDigite um numero positivo\n")
 			}
 		}enquanto(num1 < 0 ou num2 < 0)
 	 	//-----
@@ -76,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 795; 
+ * @POSICAO-CURSOR = 739; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
