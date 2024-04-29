@@ -6,12 +6,12 @@ programa
 		inteiro lajeMenu = 0
 		// areaLaje = resultado do will dias
 		real areaLaje = 10.0, volumeConcreto = 0.0
-		
+		// @KAIO RODRIGO 
 		calcularConcretoLaje(areaLaje, volumeConcreto, lajeMenu)
 		
 		
 	}
-
+// FUNCIONALIDADE IMPLEMENTADA POR KAIO RODRIGO ***********************************************************************************
 	funcao real calcularConcretoLaje(real areaLaje, real volumeConcreto, inteiro lajeMenu){
 		lajeMenu = calcularConcretoLajeMenu(lajeMenu)
 		
@@ -48,14 +48,14 @@ programa
 		leia(lajeMenu)
 		retorne lajeMenu
 	}
-	
+//**********************************************************************************************************************************	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 10; 
+ * @POSICAO-CURSOR = 1688; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
