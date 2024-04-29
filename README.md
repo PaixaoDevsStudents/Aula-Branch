@@ -99,9 +99,9 @@
 
 **Missão:** *Calcular a quantidade de concreto em uma laje; 
 
- - [ ] Usar o resultado do will dias como  m²;
- - [ ] Mostrar o resultado do calculo. Caso não seja possivel mostrar mensagem de erro.
- - [ ] Dica: O calculo do volume de concreto para laje,treliçada modelos H8 e H12 é muito simples. Multiplica-se a área da laje (m²) por 0,08    		  para modelo H8 e 0,10 para modelo H12.
+ - [x] Usar o resultado do will dias como  m²;
+ - [x] Mostrar o resultado do calculo. Caso não seja possivel mostrar mensagem de erro.
+ - [x] Dica: O calculo do volume de concreto para laje,treliçada modelos H8 e H12 é muito simples. Multiplica-se a área da laje (m²) por 0,08    		  para modelo H8 e 0,10 para modelo H12.
 --------------------------------------------------------------------------------------------
 **Responsável:** *Luis Guilherme*
 
