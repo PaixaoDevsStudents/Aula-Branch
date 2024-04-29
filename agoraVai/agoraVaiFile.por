@@ -31,6 +31,13 @@ programa
 	//velocidade média
 
 	//cubo
+	funcao resultadoCubo(inteiro num1, inteiro num2 ){
+		   vetor[0] = num1*num1*num1
+		   vetor[1] = num2*num2*num2 
+		   se(num1>num2){
+		   escreva(num1," Esse número é maior")}
+		   senao(num2 > num1)
+		   escreva(num2," Esse número é maior")
 
 	//quadrado
 
@@ -39,13 +46,13 @@ programa
 	//menu opções
 
 	//mostrar resultados
-}
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 192; 
+ * @POSICAO-CURSOR = 652; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
