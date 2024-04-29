@@ -1,7 +1,7 @@
 programa
 {
 	
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mt
 	
 	funcao inicio()
 	{
@@ -17,6 +17,10 @@ programa
 	 	* resultadoImc->Joao
 	 	* resultadoVm->Yago
 	 	*/
+		// teste função Danilo
+		calcularQuadradoDeDoisnumeros (num1=0,num2=0,resultadoQuad)
+
+	 	
 	}
 	//adição
 
@@ -32,7 +36,27 @@ programa
 
 	//cubo
 
-	//quadrado
+	//funcao do quadrado Danilo
+		funcao vazio calcularQuadradoDeDoisnumeros (inteiro num1, inteiro num2, inteiro resultadoQuad[]){
+		escreva ("\t----> Bem vindo a Função do Danilo <---------\n\n")	 
+		escreva("\t--> Informe um número para calcular o quadrado: ")
+				leia(num1)
+		escreva("\t--> Informe o segundo número para calcular o quadrado: ")
+				leia(num2)
+		// Eleva o número informado ao quadrado	
+				resultadoQuad[0] = mt.potencia(num1, 2.0)
+				resultadoQuad[1] = mt.potencia(num2, 2.0)
+		escreva("\n\t-->", num1, " ao quadrado é igual a: ", resultadoQuad[0])
+		escreva("\n\t-->", num2, " ao quadrado é igual a: ", resultadoQuad[1])
+		escreva ("\n\t--> O maior número quadrado é:",mt.maior_numero(resultadoQuad[0], resultadoQuad[1]) )
+		
+		// formula para calcular o cubo de um numero 
+		// Eleva o número informado ao cubo
+		//cubo = mat.potencia(base, 3.0)
+		//escreva("\n", base, " ao cubo é igual a: ", cubo, "\n")
+		escreva("\n\t\t\t Desenvolvido por Danilo Maia")
+		}													
+
 
 	//titulo
 
