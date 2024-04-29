@@ -17,9 +17,16 @@ programa
 	 	* resultadoImc->Joao
 	 	* resultadoVm->Yago
 	 	*/
-
-
-		
+	 	
+		faca{
+			escreva ("Digite um número: ")
+			leia(num1)
+			escreva ("Digite um número: ")
+			leia(num2)
+   			se (num1 < 0 ou num2 < 0){
+				escreva ("O número deve ser positivo\nDigite um numero positivo: \n")
+			}
+		}enquanto(num1 < 0 ou num2 < 0)
 	 	//-----
 	 	//isso aqui e por ultimo, repito ULTIMO, nao coloque NADA acima disso, obrigao :)	
 	 	mostrarResults(num1,num2,resultadoSoma,resultadoSub,resultadoMult,resultadoQuad,resultadoCubo,peso,altura,varEspaco,varTempo,resultadoDiv,resultadoVm,resultadoImc,metroConcreto)
@@ -28,6 +35,9 @@ programa
 	//adição
 
 	//subtração
+	funcao vazio subtrair(inteiro num1, inteiro num2, inteiro &resultadoSub){
+     	resultadoSub= num1-num2
+	}
 
 	//divisão
 
@@ -66,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1974; 
+ * @POSICAO-CURSOR = 795; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
