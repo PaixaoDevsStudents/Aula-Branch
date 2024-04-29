@@ -31,6 +31,32 @@ programa
 	//multiplicação
 
 	//IMC
+	funcao real IMC(real peso, real altura){
+		real imc = mt.arredondar((peso/(altura*altura)), 2)
+		real massaPesoIdeal = mt.arredondar(21.7*(altura*altura), 2), 
+		pesoMaisOuMenos =  mt.arredondar(mt.valor_absoluto(massaPesoIdeal - peso),2)
+		escreva("Seu imc é ",imc,", você está ")
+		se(imc < 18.5){
+			escreva("abaixo do peso, você tem que ganhar",pesoMaisOuMenos,"kg para  atingir o peso ideal\n")
+		}
+		senao se(imc <= 24.9){
+			escreva("no peso ideal, parabéns continue assim\n")
+		}
+		senao se(imc <= 29.9){
+			escreva("com sobrepeso, você tem que perder ",pesoMaisOuMenos,"kg para atingir o peso ideal\n")
+		}
+		senao se(imc <= 34.9){
+			escreva("com obesidade I, você tem que perder ",pesoMaisOuMenos,"kg para atingir o peso ideal\n")
+		}
+		senao se(imc < 39.9){
+			escreva("com obesidade II, você tem que perder ",pesoMaisOuMenos,"kg para atingir o peso ideal\n")
+		}
+		senao se(imc >= 40){
+			escreva("com obesidade III, você tem que perder ",pesoMaisOuMenos,"kg para atingir o peso ideal, URGENTEMENTE!!1\n")
+		}
+		retorne imc
+	}
+	
 
 	//velocidade média
 
@@ -69,7 +95,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 192; 
+ * @POSICAO-CURSOR = 816; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
