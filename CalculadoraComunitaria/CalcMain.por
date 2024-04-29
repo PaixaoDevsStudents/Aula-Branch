@@ -5,9 +5,10 @@ programa
 	
 	funcao inicio()
 	{
-	 inteiro num1=0, num2=0, resultadoSoma,resultadoSub,resultadoDiv,resultadoQuad,resultadoCubo,resultadoMult
-	 real peso, altura, varEspaco, varTempo, resultadoImc, resultadoVm
-	 inserirValores(num1,num2)
+
+	 inteiro num1, num2, resultadoSoma,resultadoSub,resultadoDiv,resultadoQuad[2],resultadoCubo[2],resultadoMult,resultadoImc,resultadoVm
+	 real peso, altura, varEspaco, varTempo
+	 
 	}
 	/*resultadoSoma->Bruno
 	 * resultadoSub->Larisse
@@ -34,11 +35,29 @@ programa
 	//funcao soma Bruno
 
 	//funcao subtrair Larisse
-
+	funcao inteiro subtrair(inteiro n1, inteiro n2){
+		retorne n1-n2
+	} 
 	//funcao  Dividir Igor
 
 	//funcao ao quadrado Danilo
+		funcao vazio quadrado2 (inteiro num1, inteiro num2, inteiro resultadoQuad[]){
+		escreva("Informe um número para calcular o quadrado: ")
+				leia(num1)
+		escreva("Informe o segundo número para calcular o quadrado: ")
+				leia(num2)
+		// Eleva o número informado ao quadrado	
+				resultadoQuad[0] = mt.potencia(num1, 2.0)
+				resultadoQuad[1] = mt.potencia(num2, 2.0)
+		escreva("\n", num1, " ao quadrado é igual a: ", resultadoQuad[0])
+		escreva("\n", num2, " ao quadrado é igual a: ", resultadoQuad[1])
+		// formula para calcular o cubo de um numero 
+		// Eleva o número informado ao cubo
+		//cubo = mat.potencia(base, 3.0)
+		//escreva("\n", base, " ao cubo é igual a: ", cubo, "\n")
+															}
 
+     
 	//funcao ao cubo Samuel
 	funcao cubo(inteiro n1, inteiro n2, vetor[2]){
 	 vetor[0] = n1*n2*n2
@@ -78,18 +97,21 @@ programa
 		retorne mt.arredondar(imc, 2)
 	}
 	//funcao YAGO VELOCIDADE MEDIA 
+        funcao vazio velocidadeMedia()
+	{
+		real varEspaco, varTempo
+		inteiro resultadoVm
+		
+		escreva("Digite a distância total percorrida (em metros): ")
+		leia(varEspaco)
+		escreva("Digite o tempo total (em segundos): ")	
+		leia(varTempo)
 
+		 resultadoVm = varEspaco / varTempo
+
+		escreva("A velocidade média é :", resultadoVm, "m/s")
+	}
 	// SE FALTAR ALGUEM AVISA ! 
 	
 }
 /* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 922; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
