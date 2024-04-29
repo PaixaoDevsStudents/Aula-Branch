@@ -5,7 +5,7 @@
 **Responsável:** *Larisse*
 	***Nome da função:*** calcularSubtracao*
 	**Missão:** *Calcular a subtração de 2 números; 
- - [ ] Verifique e trate o erro, acusando com uma  mensagem de erro caso um dos 2  números seja negativo.
+ - [X] Verifique e trate o erro, acusando com uma  mensagem de erro caso um dos 2  números seja negativo.
  - [ ] Criar todas as entradas;
 --------------------------------------------------------------------------------------------
 **Responsável:** *Danilo*
