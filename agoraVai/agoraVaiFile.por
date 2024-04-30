@@ -19,7 +19,7 @@ programa
 		}enquanto(num1 < 0 ou num2 < 0)
 
                 velocidadeMedia()
-          resultadoImc = IMC(peso, altura)
+		calcularIMC(peso, altura)
 		subtrair(num1,num2,resultadoSub)
 		cubo(num1,num2,resultadoCubo)
 	 	mostrarResults(num1,num2,resultadoSoma,resultadoSub,resultadoMult,resultadoQuad,resultadoCubo,peso,altura,varEspaco,varTempo,resultadoDiv,resultadoVm,resultadoImc,metroConcreto)
@@ -57,7 +57,7 @@ programa
 
 	
 	//IMC - JOÃO VITOR
-	funcao real IMC(real peso, real altura){
+	funcao real calcularIMC(real peso, real altura){
 		real imc = mat.arredondar((peso/(altura*altura)), 2)
 		real massaPesoIdeal = mat.arredondar(21.7*(altura*altura), 2), 
 		pesoMaisOuMenos =  mat.arredondar(mat.valor_absoluto(massaPesoIdeal - peso),2)
