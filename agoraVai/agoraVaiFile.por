@@ -24,13 +24,18 @@ programa
 	}
 	//adição - BRUNO PAJEU
 
+<<<<<<< HEAD
 	//subtração - LARISSE
+=======
+	//subtração
+>>>>>>> 15e3ebf7af89ecde6a354c2f090bce79471aef84
 	funcao vazio subtrair(inteiro num1, inteiro num2, inteiro &resultadoSub){
      	resultadoSub= num1-num2
 	}
 
 	//divisão - IGOR
 
+<<<<<<< HEAD
 	//multiplicação - WELSON
 	
 	//IMC - JOÃO VITOR
@@ -46,12 +51,30 @@ programa
 	//quadrado - DANILO
 
 	//calcularConcretoLaje - KAIO
+=======
+	//multiplicação
+	
+	//IMC
+	
+	//velocidade média
+
+	//cubo
+	funcao cubo(inteiro num1, inteiro num2 , inteiro resultadoCubo[]){
+		   resultadoCubo[0] = num1*num1*num1
+		   resultadoCubo[1] = num2*num2*num2
+	}
+>>>>>>> 15e3ebf7af89ecde6a354c2f090bce79471aef84
 
 	//calcular soma resultados (IGOR + SAMUEL + WILL DIAS) - XERENTE
 
+<<<<<<< HEAD
 	//calcular DescontoDoCustoDeConcreto / YAGO
 
 	//CustoConcreto - LUIS GUILHERME
+=======
+	//titulo
+	//menu opções
+>>>>>>> 15e3ebf7af89ecde6a354c2f090bce79471aef84
 
 	//DescontoDoCustoDeConcreto - WILL DIAS
 
@@ -80,7 +103,11 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
+<<<<<<< HEAD
  * @POSICAO-CURSOR = 2550; 
+=======
+ * @POSICAO-CURSOR = 994; 
+>>>>>>> 15e3ebf7af89ecde6a354c2f090bce79471aef84
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
