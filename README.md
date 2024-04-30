@@ -2,6 +2,16 @@
 
 > ***Atribuições das funções para treino e commit com comentários.***
 --------------------------------------------------------------------------------------------
+**Responsável:** *Pedro Victor*
+
+***Nome da função:** * AddNomeDeUsuarioComComentarioDeOpniao*
+
+**Missão:** *Salvar o nome da pessoa e um comentario sobre o app ; 
+
+ - [] Faça uma matriz onde uma coluna fica o nome da pessoa e a outra o comentario
+ - [] mostre isso no console/terminal no fim de tudo 
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 **Responsável:** *Larisse*
 
 ***Nome da função:** * calcularSubtracao*
