@@ -31,14 +31,10 @@ programa
 
 	//divisão - IGOR
 
-	//multiplicação - WELSONfuncao vazio calcularMult(inteiro resultadoMult,inteiro num1,inteiro num2 ){
-		escreva("Digite o primeiro numero :")
-		leia(num1)
-
-		escreva("Digite o segundo numero :")
-		leia(num2)
-
-		resultadoMult = num1 * num2
+	//multiplicação - WELSON
+       funcao vazio calcularMult(inteiro resultadoMult,inteiro num1,inteiro num2 ){
+		
+                resultadoMult = num1 * num2
 
 		escreva("\nMultiplicação", resultadoMult," (m/r) :\n")
 		
