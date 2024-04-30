@@ -39,7 +39,7 @@ programa
 		escreva("\nMultiplicação", resultadoMult," (m/r) :\n")
 		
 		
-	}  funcao inteiro calcularMaior (inteiro num1 , inteiro num2){
+	}  funcao vazio calcularMaior (inteiro num1 , inteiro num2){
       	        se (num1 > num2)
       	     retorne((num1/2)*num2)
             senao{
