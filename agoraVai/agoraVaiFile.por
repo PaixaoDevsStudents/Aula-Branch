@@ -19,6 +19,7 @@ programa
 		}enquanto(num1 < 0 ou num2 < 0)
 
                 velocidadeMedia()
+          resultadoImc = IMC(peso, altura)
 		subtrair(num1,num2,resultadoSub)
 		cubo(num1,num2,resultadoCubo)
 	 	mostrarResults(num1,num2,resultadoSoma,resultadoSub,resultadoMult,resultadoQuad,resultadoCubo,peso,altura,varEspaco,varTempo,resultadoDiv,resultadoVm,resultadoImc,metroConcreto)
@@ -50,6 +51,31 @@ programa
 
 	
 	//IMC - JOÃO VITOR
+	funcao real IMC(real peso, real altura){
+		real imc = mat.arredondar((peso/(altura*altura)), 2)
+		real massaPesoIdeal = mat.arredondar(21.7*(altura*altura), 2), 
+		pesoMaisOuMenos =  mat.arredondar(mat.valor_absoluto(massaPesoIdeal - peso),2)
+		escreva("Seu imc é ",imc,", você está ")
+		se(imc < 18.5){
+			escreva("abaixo do peso, você tem que ganhar",pesoMaisOuMenos,"kg para  atingir o peso ideal\n")
+		}
+		senao se(imc <= 24.9){
+			escreva("no peso ideal, parabéns continue assim\n")
+		}
+		senao se(imc <= 29.9){
+			escreva("com sobrepeso, você tem que perder ",pesoMaisOuMenos,"kg para atingir o peso ideal\n")
+		}
+		senao se(imc <= 34.9){
+			escreva("com obesidade I, você tem que perder ",pesoMaisOuMenos,"kg para atingir o peso ideal\n")
+		}
+		senao se(imc < 39.9){
+			escreva("com obesidade II, você tem que perder ",pesoMaisOuMenos,"kg para atingir o peso ideal\n")
+		}
+		senao se(imc >= 40){
+			escreva("com obesidade III, você tem que perder ",pesoMaisOuMenos,"kg para atingir o peso ideal, URGENTEMENTE!!1\n")
+		}
+		retorne imc
+	}
 	
 	//velocidade média - YAGO
         funcao vazio velocidadeMedia()
@@ -100,7 +126,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 892; 
+ * @POSICAO-CURSOR = 645; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
