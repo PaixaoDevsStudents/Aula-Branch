@@ -29,9 +29,9 @@ funcao vazio escolhaMenu(){
 		faca{
 		escolhaMenu()
 		leia(opcaoMenu)
-		se(opcaoMenu < 1 ou opcaoMenu > 12) 
+		se(opcaoMenu < 1 ou opcaoMenu > 13) 
 		escreva("Opção de menu invalida! digite uma Opção entre 1 e 8.\n\n")
-		}enquanto(opcaoMenu < 1 ou opcaoMenu > 12)
+		}enquanto(opcaoMenu < 1 ou opcaoMenu > 13)
 		escolha(opcaoMenu){
 		caso 1: // função bruno pejeu calcular soma 
                  calcularSoma(num1, num2)
@@ -74,7 +74,7 @@ funcao vazio escolhaMenu(){
 		pare
 		
 	}
-	}enquanto(opcaoMenu != 12)
+	}enquanto(opcaoMenu != 13)
 	    escreva("\n\nCalculadora encerrada, obrigada pela preferência ;)\n\n")
 	}
 	//adição
@@ -126,7 +126,7 @@ funcao vazio escolhaMenu(){
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1621; 
+ * @POSICAO-CURSOR = 2874; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
