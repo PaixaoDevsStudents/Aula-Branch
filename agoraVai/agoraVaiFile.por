@@ -17,7 +17,8 @@ programa
 				escreva ("O número deve ser positivo\nDigite um numero positivo\n")
 			}
 		}enquanto(num1 < 0 ou num2 < 0)
-		
+
+                velocidadeMedia()
 		subtrair(num1,num2,resultadoSub)
 		cubo(num1,num2,resultadoCubo)
 	 	mostrarResults(num1,num2,resultadoSoma,resultadoSub,resultadoMult,resultadoQuad,resultadoCubo,peso,altura,varEspaco,varTempo,resultadoDiv,resultadoVm,resultadoImc,metroConcreto)
@@ -51,6 +52,10 @@ programa
 	//IMC - JOÃO VITOR
 	
 	//velocidade média - YAGO
+        funcao vazio velocidadeMedia()
+	{
+		resultadoVm = num1 / num2 
+	}
 
 	//cubo - SAMUEL
 	funcao cubo(inteiro num1, inteiro num2 , inteiro resultadoCubo[]){
