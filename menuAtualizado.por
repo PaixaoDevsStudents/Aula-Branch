@@ -1,7 +1,9 @@
 programa
 {
+	inclua biblioteca Tipos --> tp
 	inclua biblioteca Matematica --> mt
-funcao vazio escolhaMenu(){
+	
+	funcao vazio escolhaMenu(){
 		escreva("***** MENU ****\n\n")
 		escreva("Digite:\n 1 - para somar\n 2 - Para subtrair\n 3 - Para Multiplicar \n 4 - Para dividir\n 5 - Para elevar ao cubo\n 6 - Para elevar ao quadrado \n",
 		" 7 - Para calcular imc\n 8 - para calcular a velociadade media\n 9 - Para calcular Result Will Dividido Result Thalison\n 10 - Calcular Concreto Laje\n 11 - calcular Desconto Do Custo De Concreto\n-->")
@@ -37,7 +39,8 @@ funcao vazio escolhaMenu(){
 
 		pare
 		caso 2: // função larisse calcular subtração 
-  
+  			calcularSubtracao(num1=0,num2=0,resultadoSub=0)
+  			escolhaMenu()
 		pare
 		caso 3: // função welason calcular multiplicação 
 
@@ -50,6 +53,7 @@ funcao vazio escolhaMenu(){
 		pare 
 		caso 6: //função danilo calcular numero elevado ao quadrado 
                calcularQuadradoDeDoisnumeros (num1=0,num2=0,resultadoQuad)
+               escolhaMenu()
 		pare
 		caso 7: // função joão vitor calcular imc
 
@@ -83,6 +87,20 @@ funcao vazio escolhaMenu(){
 
 	//cubo
 
+
+	//funcao Subtração Larrisse
+		funcao vazio calcularSubtracao( inteiro num1, inteiro num2, inteiro resultadoSub){
+     	escreva ("\t----> Bem vindo a Função da Larisse <---------\n\n")
+     	escreva ("\t----> Informe o primeiro número: \n")
+     	leia (num1)
+     	escreva("\t----> Informe o segundo número: \n")
+     	leia(num2)
+     	// formula da subtração
+     	resultadoSub = num1 - num2
+     	escreva("---- Fazendo a magica acontecer...\n")
+     	escreva("---- Fazendo a magica acontecer...\n")
+     	escreva("---- O resultado da Subtração é:",resultadoSub)
+		}	
 	//funcao do quadrado Danilo
 		funcao vazio calcularQuadradoDeDoisnumeros (inteiro num1, inteiro num2, inteiro resultadoQuad[]){
 		escreva ("\t----> Bem vindo a Função do Danilo <---------\n\n")	 
@@ -90,6 +108,9 @@ funcao vazio escolhaMenu(){
 				leia(num1)
 		escreva("\t--> Informe o segundo número para calcular o quadrado: ")
 				leia(num2)
+				//convertendo erro de linha amarela mudando numero inteiro para real... 
+				tp.inteiro_para_real(num1)
+				tp.inteiro_para_real(num2)
 		// Eleva o número informado ao quadrado	
 				resultadoQuad[0] = mt.potencia(num1, 2.0)
 				resultadoQuad[1] = mt.potencia(num2, 2.0)
@@ -118,7 +139,7 @@ funcao vazio escolhaMenu(){
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3120; 
+ * @POSICAO-CURSOR = 1354; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
