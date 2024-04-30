@@ -27,11 +27,12 @@ programa
 	//subtração
 
 	//divisão
-    funcao vazio dividir(inteiro n1,inteiro n2,inteiro resultadoDiv){
+    funcao vazio dividir(inteiro n1,inteiro n2,inteiro resultadoDiv,inteiro resultadoSub,inteiro resultadoFinal){
     	se(n2<0){
     		escreva("Nao pode dividir por numeros negativos e por zero\n")
     	}
     	resultadoDiv = n1 / n2
+    	resultadoFinal = resultadoDiv + resultadoSub
     }
 	//multiplicação
 
@@ -74,7 +75,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 744; 
+ * @POSICAO-CURSOR = 846; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
