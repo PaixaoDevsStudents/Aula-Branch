@@ -31,7 +31,26 @@ programa
 
 	//divisão - IGOR
 
-	//multiplicação - WELSON
+	//multiplicação - WELSONfuncao vazio calcularMult(inteiro resultadoMult,inteiro num1,inteiro num2 ){
+		escreva("Digite o primeiro numero :")
+		leia(num1)
+
+		escreva("Digite o segundo numero :")
+		leia(num2)
+
+		resultadoMult = num1 * num2
+
+		escreva("\nMultiplicação", resultadoMult," (m/r) :\n")
+		
+		
+	}  funcao inteiro calcularMaior (inteiro num1 , inteiro num2){
+      	        se (num1 > num2)
+      	     retorne((num1/2)*num2)
+            senao{
+                  retorne((num2/2)*num2)
+      	}
+               }
+
 	
 	//IMC - JOÃO VITOR
 	
