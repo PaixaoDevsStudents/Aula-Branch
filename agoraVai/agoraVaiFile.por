@@ -32,7 +32,13 @@ programa
 	}
 
 	//divisão - IGOR
-
+    funcao vazio calcularDivisao(inteiro n1,inteiro n2,inteiro resultadoDiv,inteiro resultadoDivSub,inteiro resultadoDivCub){
+    	inteiro resultadoCubo =0
+    	inteiro resultadoSub =0
+    	resultadoDiv = n1 / n2
+    	resultadoDivCub = resultadoDiv / resultadoCubo
+    	resultadoDivSub = resultadoDiv + resultadoSub
+    }
 	//multiplicação - WELSON
        funcao vazio calcularMult(inteiro resultadoMult,inteiro num1,inteiro num2 ){
 		
@@ -126,7 +132,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 645; 
+ * @POSICAO-CURSOR = 366; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
