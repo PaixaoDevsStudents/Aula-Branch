@@ -91,8 +91,8 @@
 
 **Missão:** *Calcular a velocidade media de um carro; 
 
- - [ x] Usar o resultado do bruno como  distancia ;
- - [ x] Usar o resultado do welson como tempo;
+ - [x] Usar o resultado do bruno como  distancia ;
+ - [x] Usar o resultado do welson como tempo;
 --------------------------------------------------------------------------------------------
 **Responsável:** *Wenerson*
 
