@@ -74,7 +74,7 @@ escreva(num1+" é igual a "+num2, "\n")
 		real imc = mat.arredondar((peso/(altura*altura)), 2)
 		real massaPesoIdeal = mat.arredondar(21.7*(altura*altura), 2), 
 		pesoMaisOuMenos =  mat.arredondar(mat.valor_absoluto(massaPesoIdeal - peso),2)
-		escreva("Seu imc é ",imc,", você está ")
+		escreva("\nSeu imc é ",imc,", você está ")
 		se(imc < 18.5){
 			escreva("abaixo do peso, você tem que ganhar",pesoMaisOuMenos,"kg para  atingir o peso ideal\n")
 		}
