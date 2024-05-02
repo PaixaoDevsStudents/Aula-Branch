@@ -17,7 +17,8 @@ programa
 				escreva ("O número deve ser positivo\nDigite um numero positivo\n")
 			}
 		}enquanto(num1 < 0 ou num2 < 0)
-
+                multiplicacao()
+               numeroMaior()
                 velocidadeMedia()
 		calcularIMC(peso, altura)
 		subtrair(num1,num2,resultadoSub)
@@ -40,20 +41,32 @@ programa
     	resultadoDivSub = resultadoDiv + resultadoSub
     }
 	//multiplicação - WELSON
-       funcao vazio calcularMult(inteiro resultadoMult,inteiro num1,inteiro num2 ){
-		
-                resultadoMult = num1 * num2
+      
+  funcao vazio multiplicacao(){
 
-		escreva("\nMultiplicação", resultadoMult," (m/r) :\n")
-		
-		
-	}  funcao vazio calcularMaior (inteiro num1 , inteiro num2){
-      	        se (num1 > num2)
-      	     retorne((num1/2)*num2)
-            senao{
-                  retorne((num2/2)*num2)
-      	}
-               }
+
+escreva("\n--------------função de multiplicação do welson-----------------\n")
+
+
+           resultadoMult= num1 * num2
+
+         escreva("\nResultado: ", resultadoMult , "  \n")
+        }
+funcao vazio numeroMaior(){
+	escreva("\n--------------função de calcular o maior número-----------------\n")
+
+se (num1 > num2){
+escreva(num1+" é maior que "+num2)
+}
+senao se (num2 > num1){
+escreva(num2+" é maior que "+num1)
+}
+senao
+{
+escreva(num1+" é igual a "+num2, "\n")
+}
+
+}
 
 	
 	//IMC - JOÃO VITOR
